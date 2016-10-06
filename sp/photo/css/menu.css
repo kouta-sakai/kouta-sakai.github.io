@@ -1,0 +1,242 @@
+
+/* CSS Document */
+
+.inner {
+    width: 100%;
+    margin: 0 auto;
+	position:fixed;
+}
+
+.inner:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+ 
+/* header */
+#top-head {
+    top: -100px;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+    z-index: 9;
+	
+}
+#top-head a,
+#top-head {
+    color: #fff;
+    text-decoration: none;
+}
+#top-head .inner {
+    position: relative;
+}
+#top-head .logo {
+    float: left;
+    font-size: 36px;
+}
+ 
+/* Fixed */
+#top-head.fixed {
+    margin-top: 0;
+    top: 0;
+    position: fixed;
+    padding-top: 10px;
+    height: 100px;
+    background:#000;
+    background: rgba(255,255,255,.7);
+    transition: top 0.65s ease-in;
+    -webkit-transition: top 0.65s ease-in;
+    -moz-transition: top 0.65s ease-in;
+}
+#top-head.fixed .logo {
+    font-size: 24px;
+    color: #333;
+}
+#top-head.fixed #global-nav ul li a {
+    color: #333;
+    padding: 0 20px;
+}
+ 
+/* Toggle Button */
+#nav-toggle {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top:0;
+	bottom:0;
+	margin:auto;
+    width: 25px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 10;
+}
+#nav-toggle div {
+    position: relative;
+}
+#nav-toggle span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background:#000;
+    left: 0;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+}
+#nav-toggle span:nth-child(1) {
+    top: 0px;
+}
+#nav-toggle span:nth-child(2) {
+    top: 9px;
+}
+#nav-toggle span:nth-child(3) {
+    top: 18px;
+}
+
+    #top-head,
+    .inner {
+        width: 100%;
+        padding: 0;
+    }
+    #top-head {
+        top: 0;
+        position: fixed;
+        margin-top: 0;
+		
+    }
+    /* Fixed reset */
+    #top-head.fixed {
+        padding-top: 0;
+        background: transparent;
+    }
+    #mobile-head {
+        background:#f8f9f8;
+		border-bottom:solid #bdcdda px;
+        width: 100%;
+		padding:10px 0;
+        z-index: 1;
+        position: relative;
+    }
+	
+	.shadow{
+		box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+	}
+	
+	#mobile-head img{
+		text-align:left;
+		margin-left:20px;
+		display:block;
+	}
+	
+    #top-head.fixed .logo,
+    #top-head .logo {
+        position: absolute;
+        left: 13px;
+        top: 13px;
+        color:#000;
+        font-size: 50px;
+		font-weight:300;
+    }
+	
+	
+	
+    #global-nav {
+        position: absolute;
+        /* 開いてないときは画面外に配置 */
+		width:100%;
+		height:200px;
+		top: -500px;
+		text-align: center;
+        padding: 10px 0;
+		background:#f8f9f8;
+		box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.3);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    #global-nav ul {
+        list-style: none;
+        /*position: static;
+        /*right: 0;
+        bottom: 0;*/
+		padding:0;
+		background:#f8f9f8;
+    }
+    #global-nav ul li {
+		width:90%;
+		text-align: center;
+        /*float: none;
+        position: static;*/
+		font-family:font-family: 'Gulim', sans-serif;
+		letter-spacing:2px;
+		color: #565656;
+		font-size:20px;
+		border-top:solid rgba(255,255,255,0.1) 1px;
+		padding:20px 0;
+		margin:0 5%;
+    }
+	
+
+
+    #top-head #global-nav ul li a,
+    #top-head.fixed #global-nav ul li a {
+		
+    }
+	
+    #nav-toggle {
+        display: block;
+    }
+	
+   /* #nav-toggle 切り替えアニメーション */
+    .open #nav-toggle span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .open #nav-toggle span:nth-child(2) {
+        width: 0;
+        left: 50%;
+    }
+    .open #nav-toggle span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    /* #global-nav スライドアニメーション */
+    .open #global-nav {
+        /* #global-nav top + #mobile-head height */
+        -moz-transform: translateY(45px);
+        -webkit-transform: translateY(45px);
+        transform: translateY(45px);
+    }
+    
+	
+	
+	
+	
+	/* オーバーレイ */
+.overlay {
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	/*opacity:0.7;*/
+	filter:alpha(opacity=70);
+	-ms-filter:"alpha(opacity=70)";
+	z-index: 5;
+}
+
+/* #global-nav スライドアニメーション */
+    .overlay #global-nav {
+        /* #global-nav top + #mobile-head height */
+        -moz-transform: translateY(556px);
+        -webkit-transform: translateY(556px);
+        transform: translateY(556px);
+    }
+	
+	.aaa{ opacity: 1;}
+	

@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8" />
+<title>kouta sakai portfolio website</title>
+       <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" media="all" href="css/ie.css"><![endif]-->
+<meta property="og:title" content="kouta sakai portfolio website" />
+<meta property="og:description" content="kouta sakai portfolio website" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="" />
+<meta property="fb:admins" content="" />
+
+<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+<link rel="stylesheet" media="all" href="css/menu.css" />
+
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/count.js"></script>
+<script type="text/javascript" src="js/jquery.sublimeSlideshow.js"></script>
+<script type="text/javascript" src="js/jquery.skOuterClick.js"></script>
+
+<script>
+<!---------ハンバーガーメニュー----------->
+(function($) {
+    $(function() {
+        var $header = $('#top-head');
+        // Nav Fixed
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 350) {
+                $header.addClass('fixed');
+            } else {
+                $header.removeClass('fixed');
+            }
+        });
+        // Nav Toggle Button
+		$('#mobile-head').skOuterClick(function() {
+			$header.removeClass('open');
+			$header.removeClass('overlay');
+			$("#mobile-head").addClass("shadow");
+  		});
+        $('#nav-toggle').click(function(){
+            $header.toggleClass('open');
+			$header.toggleClass('overlay');
+			$("#mobile-head").toggleClass("shadow");
+			
+		
+        });
+		 
+    });
+})(jQuery);
+
+<!---------bgスライド----------->
+
+
+
+$(function(){
+	$('#loading').height(height).css('display','block');
+});
+$(window).load(function(){
+	$('#loading').delay(900).fadeOut(800);
+	$('#pagewrap').css('display','block');
+});
+</script>
+
+
+
+</head>
+<body>
+
+<div id="loading">
+<div><!--<div class="border-loading-indicator col-2 row-2"></div>--><img src="img/load2.gif" alt=""></div>
+</div>
+
+<div class="h">
+<!---------ハンバーガーメニュー----------->
+<div id="top-head">
+    <div id="example" class="inner">
+        <div id="mobile-head" class="shadow">
+         <img src="img/title2.png" width="100"  />
+            <div id="nav-toggle">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <nav id="global-nav">
+            <ul>
+                
+                <a href="index.html"><li>top</li></a>
+                <a href="about.html"><li>about</li></a>
+                <a href="news.html"><li>news</li></a>
+                <a href="works.html"><li>works</li></a>
+                <a href="photo.html"><li>photograph</li></a>
+                <a href="video.html"><li>videograph</li></a>
+               <a href="contact.html"><li>contact</li></a>
+                
+                
+            </ul>
+        </nav>
+</div>
+</div>
+<!---------ハンバーガーメニュー終わり----------->
+</div>
+ <div id= "title">　<br><br><br>videograph<br><br></br>　</div>
+  <!-- Begin Wrapper -->
+  <div id="wrapper">
+  
+ 
+  
+  
+        
+       
+         
+        
+        
+<!-- 開発中
+DRAWING">DRAWINGWEB">WEB
+        <li><a href="#" data-value="Website">Website<span></span></a></li>
+        
+        開発中 -->
+        
+  
+
+      
+      <!-- End Portfolio Navigation --> 
+      
+      <!-- Begin Portfolio Elements -->
+      <ul id="gallery" class="grid">
+        
+        <li><div class="ho">  <a href="video/video7.html"><img src="video/img/1/12.jpg" alt="" /><span2 class="demo1"><h5>form giving</h5></span2></a>  </div></li>
+        <li><div class="ho">  <a href="video/video6.html"><img src="video/img/6/7.png" alt="" /><span2 class="demo1"><h5>字ィダinゼリー</h5></span2></a>  </div></li>
+        <li><div class="ho">  <a href="video/video5.html"><img src="video/img/5/42.png" alt="" /><span2 class="demo1"><h5>TAMA cafe @TAU OC</h5></span2></a>  </div></li>
+        <li><div class="ho">  <a href="video/video4.html"><img src="video/img/2/72.png" alt="" /><span2 class="demo1"><h5>Nestle</h5></span2></a>  </div></li>
+        <li><div class="ho">  <a href="video/video3.html"><img src="video/img/2/72.png" alt="" /><span2 class="demo1"><h5>TAMA cafe</h5></span2></a>  </div></li>
+        <li><div class="ho">  <a href="video/video2.html"><img src="video/img/2/72.png" alt="" /><span2 class="demo1"><h5>できごとのかたち2016</h5></span2></a>  </div></li>
+        <li><div class="ho">  <a href="video/video1.html"><img src="video/img/3/22.png" alt="" /><span2 class="demo1"><h5>AMA ONOMATOPE</h5></span2></a>  </div></li>
+        
+        
+                
+      </ul>
+      <!-- End Portfolio Elements --> 
+      
+   
+  
+  <!-- End Wrapper -->
+ 
+</div>
+
+
+
+
+<div id = "bottun">Kouta Sakai</div>
+</body>
+</html>

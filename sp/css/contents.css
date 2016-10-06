@@ -1,0 +1,246 @@
+html, body {height: 100%; overflow-x: hidden; font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;}  /*鬮倥＆100%縺ｫ謖�ｮ�*/
+
+@font-face{
+		 font-family:Yu Gothic-B;
+		 src:url(../fonts/YuGothicStd-B.otf) format('TrueType');
+	 }
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#fff;
+	-webkit-text-size-adjust: 100%;
+}
+
+*{
+-webkit-appearance: none;
+-webkit-overflow-scrolling: touch;
+}
+
+
+/*-------------------------------------------------------
+繝懊ャ繧ｯ繧ｹ
+---------------------------------------------------------*/
+/*遏ｭ縺�*/
+.short-box{
+	width:100%;
+	height:101%;
+}
+.center{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-40%);
+	-webkit-transform: translateY(-40%);
+  	-ms-transform: translateY(-40%);
+}
+.center p h1 {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+}
+
+/*髟ｷ縺�*/
+.long-box{
+	width:100%;
+	padding:100px 0 40px 0;
+}
+.long-box2{
+	width:100%;
+	height:600px;
+	padding:100px 0 40px 0;
+}
+
+
+/*荳ｭ霄ｫ*/	
+.box{
+	/*width:400px;*/
+	margin:0px 10px 10px 10px;
+	padding:8% 15px;
+	background:#fff;
+	
+	position:relative;
+}
+
+.box-works{
+	height:300px;
+	margin:0px 10px 10px 10px;
+	padding:8% 15px;
+	background:rgba(255,255,255,0.85);
+	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+	position:relative;
+}
+
+
+/*-------------------------------------------------------
+繝壹�繧ｸ蛻･
+---------------------------------------------------------*/
+
+/*繧ｳ繝ｳ繧ｻ繝励ヨ*/
+.concept h1{margin-bottom:50px;}
+.concept h2{
+	margin:0;
+	font-size:18px;}
+.concept p{margin-bottom:30px;}
+
+/*逋ｽ閭梧勹�医う繝吶Φ繝茨ｼ�*/
+.bg-white{
+	background:#f7f9f8;
+	padding:8% 0 0 0;
+}
+
+/*繧､繝吶Φ繝�*/
+.event{
+	background:#f7f9f8;
+	padding:8% 15%;
+	border-top:solid 1px #e6e6e6;
+	box-shadow:0px 3px 5px -3px #fff inset;
+}
+.event img{margin-bottom:10px;}
+.event p{
+	font-size:10px;
+	line-height:14px;
+}
+
+/*菴懷刀髮�*/
+
+.works{
+	width:200px;
+	position:absolute;
+	top:35%;
+	left:50%;
+	margin-left:-100px;
+}
+
+
+.works h1, .works p{
+	margin:0;
+}
+
+/*繧｢繧ｯ繧ｻ繧ｹ*/
+.access{margin:40px 0 ;}
+.access p{
+	font-size:10px;
+	line-height:14px;
+}
+
+/*繝ｪ繝ｳ繧ｯ*/
+.link{
+	width:260px;
+	margin:40px auto;
+}
+
+.link-box{
+	width:130px;
+	height:80px;
+	margin:10px 0;
+	padding:0px;
+	float:left;
+}
+
+.link-box p{
+	text-align:center;
+	font-size:10px;
+	line-height:14px;
+	margin:0 0 0 -10px;
+}
+
+/*-------------------------------------------------------
+譁�ｭ�
+---------------------------------------------------------*/
+p{
+	margin:5px 0 10px 0;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:1px;
+	line-height:18px;
+	color:#000;
+	text-align:left;
+}
+
+a{text-decoration:none;}
+
+h1{
+	font-size: 24px;
+	color:#000;
+	text-align:center;
+}
+
+
+.span-white{background:#fff;}
+.line-left{margin-left:-30px;}
+.line-right{margin-left:10px;}
+
+h2{
+	margin:0 0 30px 0;
+	font-size:20px;
+	line-height:28px;
+	letter-spacing:3px;
+	color:#000;
+	text-align:center;
+}
+h2 img{margin:0 10px 0 0;}
+
+h3{
+	font-weight:bold;
+	font-size:16px;
+	letter-spacing:3px;
+	color:#326291;
+	margin:25px 0 0 0;
+}
+
+/*-------------------------------------------------------
+繝懊ち繝ｳ
+---------------------------------------------------------*/
+.btn{
+	margin:20px 0 10px 0;
+	padding:10px 0;
+	background:#326291;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	border:solid 1px #326291;
+	box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.2);
+}
+
+.btn-works{
+	width:150px;
+	margin:30px auto;
+	padding:5px 0;
+	color:#326291;
+	font-weight:bold;
+	text-align:center;
+	border:solid 2px #326291;
+}
+
+
+/*-------------------------------------------------------
+縺昴�莉�
+---------------------------------------------------------*/
+
+.c-both {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon{margin:0 10px;}
+.icon-h2{margin:0 10px -5px 10px;}
+
+
+
+
+#photo{
+	height:1400px;
+	margin: 0 auto;
+}
+
+#photo img{
+	margin-left:13px;
+	margin-bottom:70px;
+	float:left;
+	vertical-align:bottom;
+
+}

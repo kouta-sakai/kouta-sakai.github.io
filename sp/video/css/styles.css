@@ -1,0 +1,105 @@
+html, body {height: 100%; overflow-x: hidden; font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;}  /*鬮倥＆100%縺ｫ謖�ｮ�*/
+
+@font-face{
+		 font-family:Yu Gothic-B;
+		 src:url(../fonts/YuGothicStd-B.otf) format('TrueType');
+	 }
+
+body {
+	
+	padding: 0;
+	position: relative;
+	-webkit-text-size-adjust: 100%;
+}
+
+main{
+	width:100%;
+	/*height:100%;*/
+	
+	margin:auto;
+	
+}
+
+/*繝ｭ繝ｼ繝�ぅ繝ｳ繧ｰ髱致er*/
+
+#loading{
+	display: none;
+	position: fixed;
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: 11;
+	text-align:center;
+}
+
+
+
+
+/* Colors */
+$borderColor1: rgba(255,255,255,0.0); /* used for row 1 & 2 */
+$borderColor2: rgba(255,255,255,0.20);
+$borderColor3: rgba(255,255,255,0.55);
+$borderColor4: rgba(255,255,255,1.0);  /* used for row 1 & 2 */
+
+/* Dimensions */
+$borderWidthX: 30px;
+$borderWidthY: 30px;
+
+/*** Animations / styles ***/
+
+@keyframes border-loading-indicator-row-2 {
+  0% {
+    border-color: $borderColor4 $borderColor1 $borderColor2 $borderColor3;
+  }
+  25% {
+    border-color: $borderColor3 $borderColor4 $borderColor1 $borderColor2;
+  }
+  50% {
+    border-color: $borderColor2 $borderColor3 $borderColor4 $borderColor1;
+  }
+  75% {
+    border-color: $borderColor1 $borderColor2 $borderColor3 $borderColor3;
+  }
+  100% {
+    border-color: $borderColor4 $borderColor1 $borderColor2 $borderColor3;
+  }
+
+
+.border-loading-indicator {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: -($borderWidthY) 0 0 -($borderWidthX);
+  border: 0px solid $borderColor4;
+  border-width: $borderWidthY $borderWidthX;
+}
+
+.border-loading-indicator.row-2 {
+  top: 75%;
+  animation: border-loading-indicator-row-2 750ms linear infinite;
+}
+.border-loading-indicator.col-2 {
+  left: 50%;
+}
+
+
+
+/*-------------------------------------------------------
+繧ｯ繝ｪ繧｢繝輔ぅ繝�け繧ｹ
+---------------------------------------------------------*/
+
+.c-both {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+p{font-family: 'Gulim', sans-serif;
+font-size:9px;
+color:#fff;}
+
+
+
+

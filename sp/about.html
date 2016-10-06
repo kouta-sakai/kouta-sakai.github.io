@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8" />
+<title>kouta sakai portfolio website</title>
+       <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" media="all" href="css/ie.css"><![endif]-->
+<meta property="og:title" content="kouta sakai portfolio website" />
+<meta property="og:description" content="kouta sakai portfolio website" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="" />
+<meta property="fb:admins" content="" />
+
+<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+<link rel="stylesheet" media="all" href="css/menu.css" />
+
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/count.js"></script>
+<script type="text/javascript" src="js/jquery.sublimeSlideshow.js"></script>
+<script type="text/javascript" src="js/jquery.skOuterClick.js"></script>
+
+<script>
+<!---------ハンバーガーメニュー----------->
+(function($) {
+    $(function() {
+        var $header = $('#top-head');
+        // Nav Fixed
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 350) {
+                $header.addClass('fixed');
+            } else {
+                $header.removeClass('fixed');
+            }
+        });
+        // Nav Toggle Button
+		$('#mobile-head').skOuterClick(function() {
+			$header.removeClass('open');
+			$header.removeClass('overlay');
+			$("#mobile-head").addClass("shadow");
+  		});
+        $('#nav-toggle').click(function(){
+            $header.toggleClass('open');
+			$header.toggleClass('overlay');
+			$("#mobile-head").toggleClass("shadow");
+			
+		
+        });
+		 
+    });
+})(jQuery);
+
+<!---------bgスライド----------->
+
+
+
+$(function(){
+	$('#loading').height(height).css('display','block');
+});
+$(window).load(function(){
+	$('#loading').delay(900).fadeOut(800);
+	$('#pagewrap').css('display','block');
+});
+</script>
+
+
+
+</head>
+<body>
+
+<div id="loading">
+<div><!--<div class="border-loading-indicator col-2 row-2"></div>--><img src="img/load2.gif" alt=""></div>
+</div>
+
+<div class="h">
+<!---------ハンバーガーメニュー----------->
+<div id="top-head">
+    <div id="example" class="inner">
+        <div id="mobile-head" class="shadow">
+         <img src="img/title2.png" width="100"  />
+            <div id="nav-toggle">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <nav id="global-nav">
+            <ul>
+                
+                <a href="index.html"><li>top</li></a>
+                <a href="about.html"><li>about</li></a>
+                <a href="news.html"><li>news</li></a>
+                <a href="works.html"><li>works</li></a>
+                <a href="photo.html"><li>photograph</li></a>
+                <a href="video.html"><li>videograph</li></a>
+               <a href="contact.html"><li>contact</li></a>
+                
+                
+            </ul>
+        </nav>
+</div>
+</div>
+<!---------ハンバーガーメニュー終わり----------->
+</div>
+ <div id= "title">　<br><br><br>about<br><br></br>　</div>
+ 
+  <!-- Begin Wrapper -->
+  <div id="wrapper">
+  
+<img src="img/profile.jpg"  width="95%"  />
+<div id= "title2">
+ <br><br>
+<b>酒井 光太</b><br><br>
+                        多摩美術大学<br>
+                        情報デザイン学科　情報デザインコース　　2013-2017<br><br>
+                        1993年、東京都生まれ<br>
+                        2012年、千葉県の高校を卒業<br>
+                        2013年、多摩美術大学　情報デザイン学科に入学と同時に、写真部に入部。　写真を撮り始める<br/>
+ 2013年10月、写真展「はみでてん」に参加<br/>その後も写真をはじめ、映像作品などを制作している。<br/><br><br><br><br>
+ 
+ 
+ <b>Kouta Sakai</b><br>
+                        Tama Art University<br>
+                        Information Design Department　Interaction Design course<br>2013-2017<br><br>
+                        
+                        Augest,1993　 Born in Tokyo,Japan<br>
+                        March, 2012,Graduated from Chiba Prefecture high school.<br>
+                        April, 2013,The entrance to the Tama Art University Department of Information Design Depertment,and join the club in the photo section. Start taking a photo.<br>
+                        October,2013　Photo Exhibition "HAMIDETEN" at Shibuya of Le Deco Gallery participate.<br />Then began the photo are also produced and video works.<br><br><br><br><br><br><br>
+ 
+ </div>
+ 
+</div>
+
+
+
+
+<div id = "bottun">Kouta Sakai</div>
+</body>
+</html>
