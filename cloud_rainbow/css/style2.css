@@ -1,0 +1,520 @@
+@charset "utf-8";
+
+body {
+	
+	font-family: "游ゴシック", YuGothic, sans-serif; 
+	font-size: 12px;
+	line-height: 180%;
+	color: #000000;
+	font-weight: lighter;
+}
+
+p{font-size: 15px;}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	opacity:0.5;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1200px;
+	background: #ffffff;
+}
+
+header {
+	padding-top: 40px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 100px;	
+}
+h1 {
+	text-align:center;
+	
+font-weight: lighter;
+}
+
+#main {
+	text-align:center;
+	
+
+
+
+}
+
+  
+  
+#main1 {transform: rotateZ(1deg);}
+#main11 {transform: rotateZ(2deg);}
+#main12 {transform: rotateZ(3deg);}
+#main13 {transform: rotateZ(4deg);}
+#main14 {transform: rotateZ(5deg);}
+#main15 {transform: rotateZ(6deg);}
+#main16 {transform: rotateZ(7deg);}
+#main17 {transform: rotateZ(8deg);}
+#main18 {transform: rotateZ(9deg);}
+#main19 {transform: rotateZ(10deg);}
+#main110 {transform: rotateZ(11deg);}
+#main111 {transform: rotateZ(12deg);}
+#main112 {transform: rotateZ(13deg);}
+#main113 {transform: rotateZ(14deg);}
+#main114 {transform: rotateZ(15deg);}
+#main115 {transform: rotateZ(16deg);}
+#main116{transform: rotateZ(17deg);}
+#main117 {transform: rotateZ(18deg);}
+#main118 {transform: rotateZ(19deg);}
+#main119 {transform: rotateZ(20deg);}
+#main120 {transform: rotateZ(21deg);}
+#main121 {transform: rotateZ(22deg);}
+#main122 {transform: rotateZ(23deg);}
+#main123 {transform: rotateZ(24deg);}
+#main124 {transform: rotateZ(25deg);}
+#main125 {transform: rotateZ(26deg);}
+#main126 {transform: rotateZ(27deg);}
+#main127 {transform: rotateZ(28deg);}
+#main128 {transform: rotateZ(29deg);}
+#main129{transform: rotateZ(30deg);}
+#main130 {transform: rotateZ(31deg);}
+#main131 {transform: rotateZ(32deg);}
+#main132 {transform: rotateZ(33deg);}
+#main133 {transform: rotateZ(34deg);}
+#main134 {transform: rotateZ(35deg);}
+#main135 {transform: rotateZ(36deg);}
+#main136 {transform: rotateZ(37deg);}
+#main137 {transform: rotateZ(38deg);}
+#main138 {transform: rotateZ(39deg);}
+#main139 {transform: rotateZ(40deg);}
+
+#main2 {transform: rotateZ(41deg);}
+#main21 {transform: rotateZ(42deg);}
+#main22 {transform: rotateZ(43deg);}
+#main23 {transform: rotateZ(44deg);}
+#main24 {transform: rotateZ(45deg);}
+#main25 {transform: rotateZ(46deg);}
+#main26 {transform: rotateZ(47deg);}
+#main27 {transform: rotateZ(48deg);}
+#main28 {transform: rotateZ(49deg);}
+#main29 {transform: rotateZ(50deg);}
+#main210 {transform: rotateZ(51deg);}
+#main211 {transform: rotateZ(52deg);}
+#main212 {transform: rotateZ(53deg);}
+#main213 {transform: rotateZ(54deg);}
+#main214 {transform: rotateZ(55deg);}
+#main215 {transform: rotateZ(56deg);}
+#main216{transform: rotateZ(57deg);}
+#main217 {transform: rotateZ(58deg);}
+#main218 {transform: rotateZ(59deg);}
+#main219 {transform: rotateZ(60deg);}
+#main220 {transform: rotateZ(61deg);}
+#main221 {transform: rotateZ(62deg);}
+#main222 {transform: rotateZ(63deg);}
+#main223 {transform: rotateZ(64deg);}
+#main224 {transform: rotateZ(65deg);}
+#main225 {transform: rotateZ(66deg);}
+#main226 {transform: rotateZ(67deg);}
+#main227 {transform: rotateZ(68deg);}
+#main228 {transform: rotateZ(69deg);}
+#main229{transform: rotateZ(70deg);}
+#main230 {transform: rotateZ(71deg);}
+#main231 {transform: rotateZ(72deg);}
+#main232 {transform: rotateZ(73deg);}
+#main233 {transform: rotateZ(74deg);}
+#main234 {transform: rotateZ(75deg);}
+#main235 {transform: rotateZ(76deg);}
+#main236 {transform: rotateZ(77deg);}
+#main237 {transform: rotateZ(78deg);}
+#main238 {transform: rotateZ(79deg);}
+#main239 {transform: rotateZ(80deg);}
+
+#main3 {transform: rotateZ(81deg);}
+#main31 {transform: rotateZ(82deg);}
+#main32 {transform: rotateZ(83deg);}
+#main33 {transform: rotateZ(84deg);}
+#main34 {transform: rotateZ(85deg);}
+#main35 {transform: rotateZ(86deg);}
+#main36 {transform: rotateZ(87deg);}
+#main37 {transform: rotateZ(88deg);}
+#main38 {transform: rotateZ(89deg);}
+#main39 {transform: rotateZ(90deg);}
+#main310 {transform: rotateZ(91deg);}
+#main311 {transform: rotateZ(92deg);}
+#main312 {transform: rotateZ(93deg);}
+#main313 {transform: rotateZ(94deg);}
+#main314 {transform: rotateZ(95deg);}
+#main315 {transform: rotateZ(96deg);}
+#main316{transform: rotateZ(97deg);}
+#main317 {transform: rotateZ(98deg);}
+#main318 {transform: rotateZ(99deg);}
+#main319 {transform: rotateZ(100deg);}
+#main320 {transform: rotateZ(101deg);}
+#main321 {transform: rotateZ(102deg);}
+#main322 {transform: rotateZ(103deg);}
+#main323 {transform: rotateZ(104deg);}
+#main324 {transform: rotateZ(105deg);}
+#main325 {transform: rotateZ(106deg);}
+#main326 {transform: rotateZ(107deg);}
+#main327 {transform: rotateZ(108deg);}
+#main328 {transform: rotateZ(109deg);}
+#main329{transform: rotateZ(110deg);}
+#main330 {transform: rotateZ(111deg);}
+#main331 {transform: rotateZ(112deg);}
+#main332 {transform: rotateZ(113deg);}
+#main333 {transform: rotateZ(114deg);}
+#main334 {transform: rotateZ(115deg);}
+#main335 {transform: rotateZ(116deg);}
+#main336 {transform: rotateZ(117deg);}
+#main337 {transform: rotateZ(118deg);}
+#main338 {transform: rotateZ(119deg);}
+#main339 {transform: rotateZ(120deg);}
+
+#main4 {transform: rotateZ(121deg);}
+#main41 {transform: rotateZ(122deg);}
+#main42 {transform: rotateZ(123deg);}
+#main43 {transform: rotateZ(124deg);}
+#main44 {transform: rotateZ(125deg);}
+#main45 {transform: rotateZ(126deg);}
+#main46 {transform: rotateZ(127deg);}
+#main47 {transform: rotateZ(128deg);}
+#main48 {transform: rotateZ(129deg);}
+#main49 {transform: rotateZ(130deg);}
+#main410 {transform: rotateZ(131deg);}
+#main411 {transform: rotateZ(132deg);}
+#main412 {transform: rotateZ(133deg);}
+#main413 {transform: rotateZ(134deg);}
+#main414 {transform: rotateZ(135deg);}
+#main415 {transform: rotateZ(136deg);}
+#main416{transform: rotateZ(137deg);}
+#main417 {transform: rotateZ(138deg);}
+#main418 {transform: rotateZ(139deg);}
+#main419 {transform: rotateZ(140deg);}
+#main420 {transform: rotateZ(141deg);}
+#main421 {transform: rotateZ(142deg);}
+#main422 {transform: rotateZ(143deg);}
+#main423 {transform: rotateZ(144deg);}
+#main424 {transform: rotateZ(145deg);}
+#main425 {transform: rotateZ(146deg);}
+#main426 {transform: rotateZ(147deg);}
+#main427 {transform: rotateZ(148deg);}
+#main428 {transform: rotateZ(149deg);}
+#main429{transform: rotateZ(150deg);}
+#main430 {transform: rotateZ(151deg);}
+#main431 {transform: rotateZ(152deg);}
+#main432 {transform: rotateZ(153deg);}
+#main433 {transform: rotateZ(154deg);}
+#main434 {transform: rotateZ(155deg);}
+#main435 {transform: rotateZ(156deg);}
+#main436 {transform: rotateZ(157deg);}
+#main437 {transform: rotateZ(158deg);}
+#main438 {transform: rotateZ(159deg);}
+#main439 {transform: rotateZ(160deg);}
+
+#main5 {transform: rotateZ(161deg);}
+#main51 {transform: rotateZ(162deg);}
+#main52 {transform: rotateZ(163deg);}
+#main53 {transform: rotateZ(164deg);}
+#main54 {transform: rotateZ(165deg);}
+#main55 {transform: rotateZ(166deg);}
+#main56 {transform: rotateZ(167deg);}
+#main57 {transform: rotateZ(168deg);}
+#main58 {transform: rotateZ(169deg);}
+#main59 {transform: rotateZ(170deg);}
+#main510 {transform: rotateZ(171deg);}
+#main511 {transform: rotateZ(172deg);}
+#main512 {transform: rotateZ(173deg);}
+#main513 {transform: rotateZ(174deg);}
+#main514 {transform: rotateZ(175deg);}
+#main515 {transform: rotateZ(176deg);}
+#main516{transform: rotateZ(177deg);}
+#main517 {transform: rotateZ(178deg);}
+#main518 {transform: rotateZ(179deg);}
+#main519 {transform: rotateZ(180deg);}
+#main520 {transform: rotateZ(181deg);}
+#main521 {transform: rotateZ(182deg);}
+#main522 {transform: rotateZ(183deg);}
+#main523 {transform: rotateZ(184deg);}
+#main524 {transform: rotateZ(185deg);}
+#main525 {transform: rotateZ(186deg);}
+#main526 {transform: rotateZ(187deg);}
+#main527 {transform: rotateZ(188deg);}
+#main528 {transform: rotateZ(189deg);}
+#main529{transform: rotateZ(190deg);}
+#main530 {transform: rotateZ(191deg);}
+#main531 {transform: rotateZ(192deg);}
+#main532 {transform: rotateZ(193deg);}
+#main533 {transform: rotateZ(194deg);}
+#main534 {transform: rotateZ(195deg);}
+#main535 {transform: rotateZ(196deg);}
+#main536 {transform: rotateZ(197deg);}
+#main537 {transform: rotateZ(198deg);}
+#main538 {transform: rotateZ(199deg);}
+#main539 {transform: rotateZ(200deg);}
+
+#main6 {transform: rotateZ(201deg);}
+#main61 {transform: rotateZ(202deg);}
+#main62 {transform: rotateZ(203deg);}
+#main63 {transform: rotateZ(204deg);}
+#main64 {transform: rotateZ(205deg);}
+#main65 {transform: rotateZ(206deg);}
+#main66 {transform: rotateZ(207deg);}
+#main67 {transform: rotateZ(208deg);}
+#main68 {transform: rotateZ(209deg);}
+#main69 {transform: rotateZ(210deg);}
+#main610 {transform: rotateZ(211deg);}
+#main611 {transform: rotateZ(212deg);}
+#main612 {transform: rotateZ(213deg);}
+#main613 {transform: rotateZ(214deg);}
+#main614 {transform: rotateZ(215deg);}
+#main615 {transform: rotateZ(216deg);}
+#main616{transform: rotateZ(217deg);}
+#main617 {transform: rotateZ(218deg);}
+#main618 {transform: rotateZ(219deg);}
+#main619 {transform: rotateZ(220deg);}
+#main620 {transform: rotateZ(221deg);}
+#main621 {transform: rotateZ(222deg);}
+#main622 {transform: rotateZ(223deg);}
+#main623 {transform: rotateZ(224deg);}
+#main624 {transform: rotateZ(225deg);}
+#main625 {transform: rotateZ(226deg);}
+#main626 {transform: rotateZ(227deg);}
+#main627 {transform: rotateZ(228deg);}
+#main628 {transform: rotateZ(229deg);}
+#main629{transform: rotateZ(230deg);}
+#main630 {transform: rotateZ(231deg);}
+#main631 {transform: rotateZ(232deg);}
+#main632 {transform: rotateZ(233deg);}
+#main633 {transform: rotateZ(234deg);}
+#main634 {transform: rotateZ(235deg);}
+#main635 {transform: rotateZ(236deg);}
+#main636 {transform: rotateZ(237deg);}
+#main637 {transform: rotateZ(238deg);}
+#main638 {transform: rotateZ(239deg);}
+#main639 {transform: rotateZ(240deg);}
+
+#main7 {transform: rotateZ(241deg);}
+#main71 {transform: rotateZ(242deg);}
+#main72 {transform: rotateZ(243deg);}
+#main73 {transform: rotateZ(244deg);}
+#main74 {transform: rotateZ(245deg);}
+#main75 {transform: rotateZ(246deg);}
+#main76 {transform: rotateZ(247deg);}
+#main77 {transform: rotateZ(248deg);}
+#main78 {transform: rotateZ(249deg);}
+#main79 {transform: rotateZ(250deg);}
+#main710 {transform: rotateZ(251deg);}
+#main711 {transform: rotateZ(252deg);}
+#main712 {transform: rotateZ(253deg);}
+#main713 {transform: rotateZ(254deg);}
+#main714 {transform: rotateZ(255deg);}
+#main715 {transform: rotateZ(256deg);}
+#main716{transform: rotateZ(257deg);}
+#main717 {transform: rotateZ(258deg);}
+#main718 {transform: rotateZ(259deg);}
+#main719 {transform: rotateZ(260deg);}
+#main720 {transform: rotateZ(261deg);}
+#main721 {transform: rotateZ(262deg);}
+#main722 {transform: rotateZ(263deg);}
+#main723 {transform: rotateZ(264deg);}
+#main724 {transform: rotateZ(265deg);}
+#main725 {transform: rotateZ(266deg);}
+#main726 {transform: rotateZ(267deg);}
+#main727 {transform: rotateZ(268deg);}
+#main728 {transform: rotateZ(269deg);}
+#main729{transform: rotateZ(270deg);}
+#main730 {transform: rotateZ(271deg);}
+#main731 {transform: rotateZ(272deg);}
+#main732 {transform: rotateZ(273deg);}
+#main733 {transform: rotateZ(274deg);}
+#main734 {transform: rotateZ(275deg);}
+#main735 {transform: rotateZ(276deg);}
+#main736 {transform: rotateZ(277deg);}
+#main737 {transform: rotateZ(278deg);}
+#main738 {transform: rotateZ(279deg);}
+#main739 {transform: rotateZ(280deg);}
+
+#main8 {transform: rotateZ(281deg);}
+#main81 {transform: rotateZ(282deg);}
+#main82 {transform: rotateZ(283deg);}
+#main83 {transform: rotateZ(284deg);}
+#main84 {transform: rotateZ(285deg);}
+#main85 {transform: rotateZ(286deg);}
+#main86 {transform: rotateZ(287deg);}
+#main87 {transform: rotateZ(288deg);}
+#main88 {transform: rotateZ(289deg);}
+#main89 {transform: rotateZ(290deg);}
+#main810 {transform: rotateZ(291deg);}
+#main811 {transform: rotateZ(292deg);}
+#main812 {transform: rotateZ(293deg);}
+#main813 {transform: rotateZ(294deg);}
+#main814 {transform: rotateZ(295deg);}
+#main815 {transform: rotateZ(296deg);}
+#main816{transform: rotateZ(297deg);}
+#main817 {transform: rotateZ(298deg);}
+#main818 {transform: rotateZ(299deg);}
+#main819 {transform: rotateZ(300deg);}
+#main820 {transform: rotateZ(301deg);}
+#main821 {transform: rotateZ(302deg);}
+#main822 {transform: rotateZ(303deg);}
+#main823 {transform: rotateZ(304deg);}
+#main824 {transform: rotateZ(305deg);}
+#main825 {transform: rotateZ(306deg);}
+#main826 {transform: rotateZ(307deg);}
+#main827 {transform: rotateZ(308deg);}
+#main828 {transform: rotateZ(309deg);}
+#main829{transform: rotateZ(310deg);}
+#main830 {transform: rotateZ(311deg);}
+#main831 {transform: rotateZ(312deg);}
+#main832 {transform: rotateZ(313deg);}
+#main833 {transform: rotateZ(314deg);}
+#main834 {transform: rotateZ(315deg);}
+#main835 {transform: rotateZ(316deg);}
+#main836 {transform: rotateZ(317deg);}
+#main837 {transform: rotateZ(318deg);}
+#main838 {transform: rotateZ(319deg);}
+#main839 {transform: rotateZ(320deg);}
+
+#main9 {transform: rotateZ(321deg);}
+#main91 {transform: rotateZ(322deg);}
+#main92 {transform: rotateZ(323deg);}
+#main93 {transform: rotateZ(324deg);}
+#main94 {transform: rotateZ(325deg);}
+#main95 {transform: rotateZ(326deg);}
+#main96 {transform: rotateZ(327deg);}
+#main97 {transform: rotateZ(328deg);}
+#main98 {transform: rotateZ(329deg);}
+#main99 {transform: rotateZ(330deg);}
+#main910 {transform: rotateZ(331deg);}
+#main911 {transform: rotateZ(332deg);}
+#main912 {transform: rotateZ(333deg);}
+#main913 {transform: rotateZ(334deg);}
+#main914 {transform: rotateZ(335deg);}
+#main915 {transform: rotateZ(336deg);}
+#main916{transform: rotateZ(337deg);}
+#main917 {transform: rotateZ(338deg);}
+#main918 {transform: rotateZ(339deg);}
+#main919 {transform: rotateZ(340deg);}
+#main920 {transform: rotateZ(341deg);}
+#main921 {transform: rotateZ(342deg);}
+#main922 {transform: rotateZ(343deg);}
+#main923 {transform: rotateZ(344deg);}
+#main924 {transform: rotateZ(345deg);}
+#main925 {transform: rotateZ(346deg);}
+#main926 {transform: rotateZ(347deg);}
+#main927 {transform: rotateZ(348deg);}
+#main928 {transform: rotateZ(349deg);}
+#main929{transform: rotateZ(350deg);}
+#main930 {transform: rotateZ(351deg);}
+#main931 {transform: rotateZ(352deg);}
+#main932 {transform: rotateZ(353deg);}
+#main933 {transform: rotateZ(354deg);}
+#main934 {transform: rotateZ(355deg);}
+#main935 {transform: rotateZ(356deg);}
+#main936 {transform: rotateZ(357deg);}
+#main937 {transform: rotateZ(358deg);}
+#main938 {transform: rotateZ(359deg);}
+#main939 {transform: rotateZ(360deg);}
+
+#main10 {transform: rotateZ(1deg);}
+#main101 {transform: rotateZ(2deg);}
+#main102 {transform: rotateZ(3deg);}
+#main103 {transform: rotateZ(4deg);}
+#main104 {transform: rotateZ(5deg);}
+#main105 {transform: rotateZ(6deg);}
+#main106 {transform: rotateZ(7deg);}
+#main107 {transform: rotateZ(8deg);}
+#main108 {transform: rotateZ(9deg);}
+#main109 {transform: rotateZ(10deg);}
+#main1010 {transform: rotateZ(11deg);}
+#main1011 {transform: rotateZ(12deg);}
+#main1012 {transform: rotateZ(13deg);}
+#main1013 {transform: rotateZ(14deg);}
+#main1014 {transform: rotateZ(15deg);}
+#main1015 {transform: rotateZ(16deg);}
+#main1016{transform: rotateZ(17deg);}
+#main1017 {transform: rotateZ(18deg);}
+#main1018 {transform: rotateZ(19deg);}
+#main1019 {transform: rotateZ(20deg);}
+
+
+
+
+
+.image{
+	float:left;
+	
+}
+
+#main img{
+ -webkit-filter: saturate(400%);
+            filter: saturate(400%);
+}
+
+
+			
+#main img:hover  {
+  opacity: 0.1;
+
+}
+/* instagramの表示部分 */
+.insta {
+	margin: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+.insta .icon {
+	float: left;
+	width: 80px;
+}
+.insta .txt {
+	float: left;
+	width: 660px;
+	margin-left: 20px;
+}
+.insta strong {
+	font-size: 16px;
+	font-weight: lighter;
+}
+.insta .pic {
+	display: block;
+	margin: 20px auto;
+}
+
+footer {
+	padding: 10px;
+
+	text-align: center;
+}
+
+#caption {
+    float:left;
+ animation-name: 'anime';
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay:0;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+@keyframes 'anime' {
+    0% {    opacity:1;  }
+    100% {  opacity:0;  }
+}
+
+
+
+
+#fadein2 h1{
+		text-align:center;
+	font-size: 50px;
+	font-weight: lighter;
+	padding-top: 440px;
+}
+
+#fadein2 p{
+		text-align:center;
+	font-size: 17px;
+	font-weight: lighter;
+	
+}
